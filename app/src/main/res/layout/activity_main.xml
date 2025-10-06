@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="#2C3E50"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/btnCalculator"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Калькулятор"
+        android:textSize="50sp"
+        android:layout_marginBottom="10dp"
+        android:background="#E74C3C"
+        android:textColor="#FFFFFF"
+        android:gravity="center"/>
+
+    <Button
+        android:id="@+id/btnPlayer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Аудио плеер"
+        android:textSize="50sp"
+        android:layout_marginBottom="10dp"
+        android:background="#3498DB"
+        android:textColor="#FFFFFF"
+        android:gravity="center"/>
+
+    <Button
+        android:id="@+id/btnLocation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Моя локация"
+        android:textSize="50sp"
+        android:layout_marginBottom="10dp"
+        android:background="#2ECC71"
+        android:textColor="#FFFFFF"
+        android:gravity="center"/>
+
+</LinearLayout>
